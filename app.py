@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 def load_model():
-    model = pickle.load(open(r"..\artifacts\model.pkl", "rb"))
+    model = pickle.load(open(r"../artifacts/model.pkl", "rb"))
     return model
 
 
